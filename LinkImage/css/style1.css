@@ -1,0 +1,13 @@
+img{
+	max-width: 300px;
+}
+
+a:link{
+	text-decoration:none;
+}
+a:hover{
+	color: orange;
+}
+a{
+	text-align: center;
+}
