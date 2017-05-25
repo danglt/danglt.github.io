@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+#left{
+	float: left;
+}
+
+#content{
+	float:left;
+}
+
+#menubar li {
+	height: 30px;
+	line-height: 30px;
+	list-style: none;
+	border:solid 1px green;
+	border-bottom: none;
+	background-color: orange;
+	max-width: 200px;
+}
+#menubar li:last-child{
+	border-bottom:solid 1px green;
+} 
+
+#menubar a {
+	text-decoration: none;
+	padding: 5px;
+}
+#photo{
+	max-height: 300px;
+	max-width: 200px;
+}
+#footer{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+#footer img{
+	max-width: 50px;
+	max-height: 50px;
+}
