@@ -4,10 +4,12 @@
 
 #left{
 	float: left;
+	position: absolute;
 }
 
 #content{
 	float:left;
+	padding-left: 200px;
 }
 
 #menubar li {
